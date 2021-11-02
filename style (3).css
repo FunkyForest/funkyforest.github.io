@@ -1,0 +1,164 @@
+@media screen
+  and (min-device-width: 11025px)
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (-webkit-min-device-pixel-ratio: 2)
+  body{
+    font-size: 1vw;
+  }
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  body{
+      font-size: 1.5vw;
+  }
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  body{
+    font-size: 5vw;
+  }
+    .icons{
+      font-size: 4em;
+    }
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  body{
+    font-size: 3vw;
+  }
+    .icons{
+      font-size: 4em;
+    }
+    .container{  overflow-y:scroll;
+  overflow-x:hidden;}
+}
+
+body {
+  font: "proxima-nova";
+  width: 100%;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover {
+}
+
+a:hover span {
+  position: relative;
+  bottom: 2px;
+  -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+#bkg{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  object-fit: cover;
+}
+
+#bkg img {
+  opacity:0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.container{
+  display: block;
+  position: fixed;
+  width:90%;
+  height: 100%;
+}
+
+.h1 {
+  position: relative;
+  font-size: 2em;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 100;
+  font-smoothing: anitaliased;
+  color: #FFFFFF;
+  height: 100%;
+  top: 10%;
+  left: 5%;
+}
+
+.h2 {
+  position: relative;
+  font-size: .5em;
+  font-family: proxima nova, sans-serif;
+  font-weight: 300;
+  font-smoothing: anitaliased;
+  color: #FFFFFF;
+  top: 10%;
+}
+
+.icons {
+  font-size: 1.4em;
+  position: relative;
+  top: .5em;
+  left: -5px;
+  padding-bottom: 1em;
+}
+
+.icons img {
+  width: 26px;
+  height: auto;
+  margin: 5px;
+}
+
+.icon-icomoon-01b:before {
+  content: "\e600";
+  padding: 5px;
+}
+
+.icon-icomoon-02b:before {
+  content: "\e601";
+  padding: 5px;
+}
+
+.icon-icomoon-03b:before {
+  content: "\e602";
+  padding: 5px;
+}
+
+.icon-icomoon-04b:before {
+  content: "\e603";
+  padding: 5px;
+  
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+}
